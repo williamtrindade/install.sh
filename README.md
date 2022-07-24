@@ -13,7 +13,7 @@ ___
   <a href=""><img src="https://assets-global.website-files.com/5e9fbf5674850713e126ee08/5eb310b704b0b6b523020e10_intellij.png" width="40px"></a>
   <a href=""><img src="https://www.qbssoftware.com/image/cache/catalog/Product%20Logos/JetBrains/JBWEBSTORM-550x550.png" width="40px"></a>
   <a href=""><img src="https://cdn.iconscout.com/icon/free/png-256/node-js-1174925.png" width="40px"></a>
-  <a href=""><img src="https://pics.freeicons.io/uploads/icons/png/9541947681580802979-512.png" width="40px"></a>
+  <a href=""><img src="https://pbs.twimg.com/profile_images/778422085639032832/44mC-kJ3_400x400.jpg" width="40px"></a>
   <a href=""><img src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_npm_icon_130297.png" width="40px"></a>
   <a href=""><img src="https://voyager.postman.com/logo/postman-logo-icon-orange.svg" width="40px"></a>
   <a href=""><img src="https://obsproject.com/assets/images/new_icon_small-r.png" width="40px"></a>
