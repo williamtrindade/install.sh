@@ -62,6 +62,11 @@ sudo add-apt-repository ppa:obsproject/obs-studio
 sudo apt update
 sudo apt-get update
 sudo apt-get install obs-studio -y
-
 cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
 ~/.dropbox-dist/dropboxd
+
+wget https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.0.5-stable.tar.xz
+tar -xf ./flutter_linux_3.0.5-stable.tar.xz
+sudo rm ./flutter_linux_3.0.5-stable.tar.xz
+sudo mv ./flutter /opt
+export PATH="$PATH:`pwd`/opt/flutter/bin/"
