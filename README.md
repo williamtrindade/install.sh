@@ -18,7 +18,7 @@ ___
   <a href="#"><img src="https://voyager.postman.com/logo/postman-logo-icon-orange.svg" width="40px"></a>
   <a href="#"><img src="https://obsproject.com/assets/images/new_icon_small-r.png" width="40px"></a>
   <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Dropbox_Icon.svg/1101px-Dropbox_Icon.svg.png" width="40px"></a>
-  <a href="#"><img src="https://plugins.jetbrains.com/files/13666/175113/icon/pluginIcon.png" width="40px"></a>
+  <a href="#"><img src="https://storage.googleapis.com/cms-storage-bucket/c823e53b3a1a7b0d36a9.png" width="40px"></a>
 </p>
 
 
