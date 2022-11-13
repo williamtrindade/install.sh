@@ -1,5 +1,5 @@
 # install.sh
-A simple development environment setup.
+My simple development environment setup.
 ___
 <p>
   <a href="#"><img src="https://img.icons8.com/fluency/344/spotify.png" width="40px"></a>
