@@ -75,3 +75,6 @@ sudo snap install figma-linux
 
 sudo snap install notion-snap
 
+sudo snap install overleaf
+
+
