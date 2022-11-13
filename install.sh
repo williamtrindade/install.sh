@@ -70,3 +70,8 @@ tar -xf ./flutter_linux_3.0.5-stable.tar.xz
 sudo rm ./flutter_linux_3.0.5-stable.tar.xz
 sudo mv ./flutter /opt
 export PATH="$PATH:`pwd`/opt/flutter/bin/"
+
+sudo snap install figma-linux
+
+sudo snap install notion-snap
+
