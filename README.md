@@ -36,5 +36,4 @@ ___
 ./install.sh
 ```
 ___
-#### Windows 11 apps
-- 
+#### <a href="https://github.com/williamtrindade/install.sh/blob/main/windows11.md"> Windows 11 apps </a>  
