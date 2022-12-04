@@ -1,1 +1,5 @@
-
+- Chrome
+- Spotify
+- Notion
+- Canva
+- 
