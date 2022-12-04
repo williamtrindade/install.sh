@@ -35,3 +35,6 @@ ___
 ```console
 ./install.sh
 ```
+___
+#### Windows 11 apps
+- 
