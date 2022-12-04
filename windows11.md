@@ -4,3 +4,4 @@
 - Canva
 - OBS
 - PHP Storm
+- VSCODE
