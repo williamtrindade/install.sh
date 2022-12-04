@@ -2,4 +2,5 @@
 - Spotify
 - Notion
 - Canva
-- 
+- OBS
+- PHP Storm
