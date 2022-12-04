@@ -6,3 +6,4 @@
 - PHP Storm
 - VSCode
 - Git
+- xampp
