@@ -7,3 +7,4 @@
 - VSCode
 - Git
 - Xampp
+- Datagrip
