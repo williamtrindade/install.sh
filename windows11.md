@@ -9,3 +9,5 @@
 - Xampp
 - Composer
 - Datagrip
+- nodejs
+- npm
