@@ -11,3 +11,4 @@
 - Datagrip
 - nodejs
 - npm
+- python
