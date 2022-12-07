@@ -2,7 +2,6 @@
 My simple development environment setup.
 ___
 <p>
-  <a href="#"><img src="https://logodownload.org/wp-content/uploads/2022/04/brave-logo-0-1536x1536.png" width="40px"></a>
   <a href="#"><img src="https://img.icons8.com/fluency/344/spotify.png" width="40px"></a>
   <a href="#"><img src="https://img.icons8.com/cute-clipart/344/discord-new-logo.png" width="40px"></a>
   <a href="#"><img src="https://img.icons8.com/ios-filled/344/php-logo.png" width="40px"></a>
