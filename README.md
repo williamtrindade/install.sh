@@ -9,7 +9,7 @@ ___
   <a href="#"><img src="https://dashboard.snapcraft.io/site_media/appmedia/2017/11/webide.ico_HA9tBL0.png" width="40px"></a>
   <a href="#"><img src="https://resources.jetbrains.com/storage/products/datagrip/img/meta/datagrip_logo_300x300.png" width="40px"></a>
    <a href="#"><img src="https://assets-global.website-files.com/5e9fbf5674850713e126ee08/5eb310b704b0b6b523020e10_intellij.png" width="40px"></a>
-  <a href="#"><img src="https://www.qbssoftware.com/image/cache/catalog/Product%20Logos/JetBrains/JBWEBSTORM-550x550.png" width="40px"></a>
+  <a href="#"><img src="https://resources.jetbrains.com/storage/products/webstorm/img/meta/webstorm_logo_300x300.png" width="40px"></a>
   <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Android_Studio_Icon_%282014-2019%29.svg/1200px-Android_Studio_Icon_%282014-2019%29.svg.png" width="40px"></a>
   <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" width="40px"></a>
   <a href="#"><img src="https://cdn.iconscout.com/icon/free/png-256/node-js-1174925.png" width="40px"></a>
