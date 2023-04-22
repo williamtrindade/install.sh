@@ -58,9 +58,9 @@ sudo apt install openjdk-11-jdk -y
 java --version
 
 # ANDROID STUDIO
-sudo apt-add-repository ppa:maarten-fonville/android-studio
-sudo apt update
-sudo apt install android-studio -y
+# sudo apt-add-repository ppa:maarten-fonville/android-studio
+# sudo apt update
+# sudo apt install android-studio -y
 
 # NODEJS
 sudo apt install npm -y
