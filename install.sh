@@ -4,11 +4,13 @@ sudo apt update
 sudo apt upgrade
 sudo apt autoremove
 
-# SPOTIFY
+# WGET
 sudo apt install curl
-curl -sS https://download.spotify.com/debian/pubkey_5E3C45D7B312C643.gpg | sudo apt-key add -
+
+# SPOTIFY
+curl -sS https://download.spotify.com/debian/pubkey_7A3A762FAFD4A51F.gpg | sudo gpg --dearmor --yes -o /etc/apt/trusted.gpg.d/spotify.gpg
 echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
-sudo apt-get update && sudo apt-get install spotify-client -y
+sudo apt-get update && sudo apt-get install spotify-client
 
 # DISCORD
 wget -O discord.deb "https://discord.com/api/download?platform=linux&format=deb"
@@ -28,39 +30,40 @@ php -r "unlink('composer-setup.php');"
 sudo mv composer.phar /usr/local/bin/composer
 
 # JETBRAINS
-wget https://download.jetbrains.com/webide/PhpStorm-2022.3.tar.gz
-wget https://download.jetbrains.com/datagrip/datagrip-2022.3.tar.gz
-wget https://download.jetbrains.com/idea/ideaIU-2022.3.tar.gz
-wget https://download.jetbrains.com/webstorm/WebStorm-2022.3.tar.gz
+wget https://download.jetbrains.com/webide/PhpStorm-2023.1.2.tar.gz
+wget https://download.jetbrains.com/datagrip/datagrip-2023.1.2.tar.gz
+wget https://download.jetbrains.com/idea/ideaIU-2023.1.2.tar.gz
+wget https://download.jetbrains.com/webstorm/WebStorm-2023.1.2.tar.gz
 
-tar -xvzf ./PhpStorm-2022.3.tar.gz
-tar -xvzf ./datagrip-2022.3.tar.gz
-tar -xvzf ./ideaIU-2022.3.tar.gz
-tar -xvzf ./WebStorm-2022.3.tar.gz
+tar -xvzf ./PhpStorm-2023.1.2.tar.gz
+tar -xvzf ./datagrip-2023.1.2.tar.gz
+tar -xvzf ./ideaIU-2023.1.2.tar.gz
+tar -xvzf ./WebStorm-2023.1.2.tar.gz
 
-sudo rm ./PhpStorm-2022.3.tar.gz
-sudo rm ./datagrip-2022.3.tar.gz
-sudo rm ./ideaIU-2022.3.tar.gz
-sudo rm ./WebStorm-2022.3.tar.gz
+sudo rm ./PhpStorm-2023.1.2.tar.gz
+sudo rm ./datagrip-2023.1.2.tar.gz
+sudo rm ./ideaIU-2023.1.2.tar.gz
+sudo rm ./WebStorm-2023.1.2.tar.gz
 
-sudo mv ./PhpStorm-223.7571.212 /opt
-sudo mv ./DataGrip-2022.3 /opt
-sudo mv ./idea-IU-223.7571.182 /opt
-sudo mv ./WebStorm-223.7571.168 /opt
+sudo mv ./PhpStorm-231.9011.38 /opt
+sudo mv ./DataGrip-2023.1.2 /opt
+sudo mv ./idea-IU-231.9011.34 /opt
+sudo mv ./WebStorm-231.9011.35 /opt
 
-/opt/PhpStorm-223.7571.212/bin/phpstorm.sh
-/opt/DataGrip-2022.3/bin/datagrip.sh
-/opt/idea-IU-223.7571.182/bin/idea.sh
-/opt/WebStorm-223.7571.168/bin/webstorm.sh
+/opt/PhpStorm-231.9011.38/bin/phpstorm.sh
+/opt/DataGrip-2023.1.2/bin/datagrip.sh
+/opt/idea-IU-231.9011.34/bin/idea.sh
+/opt/WebStorm-231.9011.35/bin/webstorm.sh
 
 # JAVA
-sudo apt install openjdk-11-jdk -y
+sudo apt install openjdk-17-jdk -y
+sudo apt install openjdk-17-doc -y
 java --version
 
 # ANDROID STUDIO
-# sudo apt-add-repository ppa:maarten-fonville/android-studio
-# sudo apt update
-# sudo apt install android-studio -y
+sudo apt-add-repository ppa:maarten-fonville/android-studio
+sudo apt update
+sudo apt install android-studio -y
 
 # NODEJS
 sudo apt install npm -y
@@ -89,14 +92,16 @@ sudo apt-get install obs-studio -y
 # DROPBOX
 cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
 ~/.dropbox-dist/dropboxd
+# TODO FIX DROPBOX
 
 # FLUTTER
-wget https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.3.9-stable.tar.xz
-tar -xf ./flutter_linux_3.3.9-stable.tar.xz
-sudo rm ./flutter_linux_3.3.9-stable.tar.xz
+wget https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.10.2-stable.tar.xz
+tar -xf ./flutter_linux_3.10.2-stable.tar.xz
+sudo rm ./flutter_linux_3.10.2-stable.tar.xz
 sudo mv ./flutter /opt
 export PATH="$PATH:/opt/flutter/bin"
-
+flutter doctor
+# ADD FLUTTER TO .bash RC -> export PATH="$PATH:/opt/flutter/bin"
 
 #
 #sudo snap install figma-linux
@@ -105,3 +110,4 @@ export PATH="$PATH:/opt/flutter/bin"
 #
 #sudo snap install overleaf
 #
+
