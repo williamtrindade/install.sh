@@ -13,11 +13,8 @@ ___
   <a href="#"><img src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_npm_icon_130297.png" width="40px"></a>
   <a href="#"><img src="https://voyager.postman.com/logo/postman-logo-icon-orange.svg" width="40px"></a>
   <a href="#"><img src="https://obsproject.com/assets/images/new_icon_small-r.png" width="40px"></a>
-  <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Dropbox_Icon.svg/1101px-Dropbox_Icon.svg.png" width="40px"></a>
   <a href="#"><img src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-goog/events/flutter_0G48Si8.png" width="40px"></a>
-    <a href="#"><img src="https://res.cloudinary.com/canonical/image/fetch/f_auto,q_auto,fl_sanitize,w_60,h_60/https://dashboard.snapcraft.io/site_media/appmedia/2019/03/icon_E5fiGLe.png" width="40px"></a>
-      <a href="#"><img src="https://res.cloudinary.com/canonical/image/fetch/f_auto,q_auto,fl_sanitize,w_60,h_60/https://dashboard.snapcraft.io/site_media/appmedia/2022/08/notion-icon_JkA1VQl.png" width="40px"></a>
-            <a href="#"><img src="https://res.cloudinary.com/canonical/image/fetch/f_auto,q_auto,fl_sanitize,w_60,h_60/https://dashboard.snapcraft.io/site_media/appmedia/2020/07/overleaf_copy.png" width="40px"></a>
+
 </p>
 
 
