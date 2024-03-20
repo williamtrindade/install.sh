@@ -25,18 +25,18 @@ sudo apt install php8.1-sqlite3
 
 # COMPOSER
 php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
-php -r "if (hash_file('sha384', 'composer-setup.php') === 'edb40769019ccf227279e3bdd1f5b2e9950eb000c3233ee85148944e555d97be3ea4f40c3c2fe73b22f875385f6a5155') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+php -r "if (hash_file('sha384', 'composer-setup.php') === 'dac665fdc30fdd8ec78b38b9800061b4150413ff2e3b6f88543c636f7cd84f6db9189d43a81e5503cda447da73c7e5b6') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
 php composer-setup.php
 php -r "unlink('composer-setup.php');"
 sudo mv composer.phar /usr/local/bin/composer
 
 # JETBRAINS
-wget https://download.jetbrains.com/toolbox/jetbrains-toolbox-2.2.1.19765.tar.gz
+wget https://download.jetbrains.com/toolbox/jetbrains-toolbox-2.2.3.20090.tar.gz
 
-tar -xvzf ./jetbrains-toolbox-2.2.1.19765.tar.gz
-sudo rm ./jetbrains-toolbox-2.2.1.19765.tar.gz
-sudo mv ./jetbrains-toolbox-2.2.1.19765 /opt
-/opt/jetbrains-toolbox-2.2.1.19765/jetbrains-toolbox
+tar -xvzf ./jetbrains-toolbox-2.2.3.20090.tar.gz
+sudo rm ./jetbrains-toolbox-2.2.3.20090.tar.gz
+sudo mv ./jetbrains-toolbox-2.2.3.20090 /opt
+/opt/jetbrains-toolbox-2.2.3.20090/jetbrains-toolbox
 
 # JAVA
 sudo apt install openjdk-17-jdk -y
@@ -69,10 +69,10 @@ sudo apt-get install obs-studio -y
 
 
 # FLUTTER
-wget https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.19.1-stable.tar.xz
+wget https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.19.3-stable.tar.xz
 
-tar -xf ./flutter_linux_3.19.1-stable.tar.xz
-sudo rm ./flutter_linux_3.19.1-stable.tar.xz
+tar -xf ./flutter_linux_3.19.3-stable.tar.xz
+sudo rm ./flutter_linux_3.19.3-stable.tar.xz
 sudo mv ./flutter /opt
 export PATH="$PATH:/opt/flutter/bin"
 flutter doctor
