@@ -2,11 +2,12 @@
 My simple development environment setup.
 ___
 <p>
+  <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb4Dk5TJ0ZgSnT5fBJoFeDPSv2KBO6ByrbmA&s" width="40px"></a>
   <a href="#"><img src="https://img.icons8.com/fluency/344/spotify.png" width="40px"></a>
   <a href="#"><img src="https://img.icons8.com/cute-clipart/344/discord-new-logo.png" width="40px"></a>
   <a href="#"><img src="https://img.icons8.com/ios-filled/344/php-logo.png" width="40px"></a>
   <a href="#"><img src="http://magenteiro.com/blog/wp-content/uploads/2017/07/Logo-composer-transparent.png" width="40px"></a>
-  <a href="#"><img src="https://www.jetbrains.com/company/brand/img/logo1.svg" width="40px"></a>
+  <a href="#"><img src="https://seeklogo.com/images/J/jetbrains-toolbox-app-logo-444819278D-seeklogo.com.png" width="40px"></a>
   <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" width="40px"></a>
   <a href="#"><img src="https://cdn.iconscout.com/icon/free/png-256/node-js-1174925.png" width="40px"></a>
   <a href="#"><img src="https://pbs.twimg.com/profile_images/778422085639032832/44mC-kJ3_400x400.jpg" width="40px"></a>
